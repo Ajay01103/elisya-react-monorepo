@@ -1,0 +1,15 @@
+{
+    "name": "@elisya-micro/server",
+    "version": "0.0.0",
+    "main": "src/index.ts",
+    "types": "src/index.ts",
+    "dependencies": {
+        "@elysiajs/eden": "latest",
+        "api": "workspace:*",
+        "elysia": "latest"
+    },
+    "devDependencies": {
+        "@types/node": "^24.10.4",
+        "typescript": "5"
+    }
+}

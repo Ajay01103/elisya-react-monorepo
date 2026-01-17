@@ -1,0 +1,21 @@
+{
+  "name": "api",
+  "private": true,
+  "type": "module",
+  "main": "main.ts",
+  "types": "main.ts",
+  "scripts": {
+    "dev": "tsx watch main.ts",
+    "build": "tsc main.ts --outDir dist",
+    "start": "NODE_ENV=production node dist/main.js"
+  },
+  "devDependencies": {
+    "tsx": "4",
+    "typescript": "5"
+  },
+  "dependencies": {
+    "@elysiajs/cors": "^1.4.1",
+    "@elysiajs/node": "1",
+    "elysia": "1"
+  }
+}
